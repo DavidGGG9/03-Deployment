@@ -1,0 +1,9 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.8, pytest-8.3.4, pluggy-1.5.0 -- /home/davidgeorgette974/code/DavidGGG9/data-engineering-challenges/01-Software-Engineering-Best-Practices/05-Docker-and-Deployment/03-Deployment/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /home/davidgeorgette974/code/DavidGGG9/data-engineering-challenges/01-Software-Engineering-Best-Practices/05-Docker-and-Deployment/03-Deployment
+configfile: pyproject.toml
+plugins: anyio-4.7.0
+collecting ... collected 0 items
+
+============================ no tests ran in 0.01s =============================
