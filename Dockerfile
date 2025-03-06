@@ -14,6 +14,8 @@ RUN apt-get -y update \
 
 WORKDIR /home/runner/app
 
+USER 10000
+
 ENV PATH="${PATH}:/home/runner/.local/bin"
 
 COPY ./  ./
@@ -22,7 +24,6 @@ RUN pip install --upgrade pip \
     && pip install --no-cache-dir poetry \
     && poetry install --only main
 
-USER 10000
 
 EXPOSE ${PORT}
 
